@@ -1,0 +1,18 @@
+collated: true
+context:
+  title: 'Gill sans Regular'
+  font: 'regular'
+
+variants:
+  - name: semibold
+    context:
+      title: 'Gill sans SemiBold'
+      font: 'semi-bold'
+  - name: bold
+    context:
+      title: 'Gill sans Bold'
+      font: 'bold'
+  - name: light
+    context:
+      title: 'Gill sans light'
+      font: 'light'

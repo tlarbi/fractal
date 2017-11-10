@@ -1,0 +1,21 @@
+{
+  "name": "ecd-2-fractal",
+  "version": "0.1.0",
+  "description": "ECD 2 Fractal",
+  "dependencies": {
+    "@frctl/fractal": "^1.0.0",
+    "@frctl/handlebars": "^1.0.0",
+    "@frctl/handlebars-helpers": "^0.3.0",
+    "@frctl/mandelbrot": "^1.0.0",
+    "@frctl/twig": "https://github.com/tnottu/fractal-twig-adapter.git",
+    "faker": "^3.1.0",
+    "gulp-install": "^1.1.0",
+    "request-promise": "^2.0.1"
+  },
+  "devDependencies": {
+    "del": "^2.2.0",
+    "gulp": "github:gulpjs/gulp#4.0",
+    "gulp-sass": "^2.2.0",
+    "gulp-sass-glob": "^1.0.5"
+  }
+}

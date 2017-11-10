@@ -1,0 +1,56 @@
+collated: true
+context:
+  title: 'SuperColor'
+  hexa: '#00afec'
+  color: 'blue'
+variants:
+  - name: gris1
+    context:
+      title: 'Gris1'
+      hexa: '#767676'
+      color: 'gris1'
+  - name: gris2
+    context:
+      title: 'Gris2'
+      hexa: '#9E9E9E'
+      color: 'gris2'
+  - name: gris3
+    context:
+      title: 'Gris3'
+      hexa: '#97A0A1'
+      color: 'gris3'
+  - name: gris4
+    context:
+      title: 'Gris4'
+      hexa: '#EDEDED'
+      color: 'gris4'
+  - name: gris5
+    context:
+      title: 'Gris5'
+      hexa: '#F4F4F4'
+      color: 'gris5'
+  - name: gris6
+    context:
+      title: 'Gris6'
+      hexa: '#FAFAFA'
+      color: 'gris6'
+  - name: black
+    context:
+      title: 'Black'
+      hexa: '#000000'
+      color: 'black'
+  - name: white
+    context:
+      title: 'White'
+      hexa: '#FFFFFF'
+      color: 'white'
+  - name: yellow
+    context:
+      title: 'Yellow'
+      hexa: '#FFFE02'
+      color: 'yellow'
+  - name: red
+    context:
+      title: 'Red'
+      hexa: '#FF1425'
+      color: 'red'

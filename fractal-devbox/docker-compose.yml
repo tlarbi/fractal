@@ -1,0 +1,17 @@
+version: '2'
+
+services:
+  node:
+    build:
+      context: ../app
+      dockerfile: Dockerfile
+    ports:
+    ports:
+      - "3000:3000"
+      - "5858:5858"
+      - "9229:9229"
+    volumes:
+      - ${LOCALPATH}:/opt/app
+    environment:
+      - DOCUMENTROOT=${DOCUMENTROOT}
+

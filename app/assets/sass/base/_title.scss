@@ -1,0 +1,6 @@
+// mixin title page
+@mixin title-page(){
+  color: $black;
+  @include font-size(55);
+  font-family: $Portrait-Regular;
+}

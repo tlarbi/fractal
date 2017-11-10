@@ -1,0 +1,10 @@
+collated: true
+context:
+  link: '#'
+  url: '/assets/img/logo/logo-citeo.png'
+
+variants:
+  - name: adelphe
+    context:
+      link: '#'
+      url: '/assets/img/logo/logo-adelphe.jpg'

@@ -1,0 +1,124 @@
+// Typography Citeo
+// -----------------------------------------------------------------------------
+
+// Gill Sans Regular
+// -----------------------------------------------------------------------------
+@font-face {
+  font-family: 'GillSans'; // Deprecated
+  src: url('../../assets/fonts/GillSans/GillSans.eot');
+  src: url('../../assets/fonts/GillSans/GillSans.ttf') format('truetype');
+  src: url('../../assets/fonts/GillSans/GillSans.woff2') format('woff2'),
+    url('../../assets/fonts/GillSans/GillSans.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+// Gill Sans SemiBold
+// -----------------------------------------------------------------------------
+@font-face {
+  font-family: 'GillSansSemibold'; // Deprecated
+  src: url('../../assets/fonts/GillSansSemibold/GillSansSemibold.eot');
+  src: url('../../assets/fonts/GillSansSemibold/GillSansSemibold.ttf') format('truetype'),
+  url('../../assets/fonts/GillSansSemibold/GillSansSemibold.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+// Gill Sans Bold
+// -----------------------------------------------------------------------------
+@font-face {
+  font-family: 'GillSansBold'; // Deprecated
+  src: url('../../assets/fonts/GillSansBold/GillSansBold.eot');
+  src: url('../../assets/fonts/GillSansBold/GillSansBold.ttf') format('truetype'),
+  url('../../assets/fonts/GillSansBold/GillSansBold.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+// Gill Sans light
+// -----------------------------------------------------------------------------
+@font-face {
+  font-family: 'GillSansLight'; // Deprecated
+  src: url('../../assets/fonts/GillSansLight/GillSansLight.eot');
+  src: url('../../assets/fonts/GillSansLight/GillSansLight.ttf') format('truetype'),
+  url('../../assets/fonts/GillSansLight/GillSansLight.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+// Gill Sans Medium
+// -----------------------------------------------------------------------------
+@font-face {
+  font-family: 'GillSansMedium'; // Deprecated
+  src: url('../../assets/fonts/GillSansMedium/GillSansMedium.eot');
+  src: url('../../assets/fonts/GillSansMedium/GillSansMedium.ttf') format('truetype'),
+  url('../../assets/fonts/GillSansMedium/GillSansMedium.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+
+// variable typography weights
+// -----------------------------------------------------------------------------
+
+// Font weights
+$light: 100; // Deprecated
+$medium: 300; // Deprecated
+$regular: 400; // Deprecated
+$regular-bold: 500; // Deprecated
+$semi-bold: 500; // Deprecated
+$bold: 700; // Deprecated
+
+
+// variable typography font family
+// -----------------------------------------------------------------------------
+
+// Fonts family
+$GillSans-Regular: 'GillSans', sans-serif; // Deprecated
+$GillSans-Bold: 'GillSansBold', sans-serif; // Deprecated
+$GillSans-SemiBold: 'GillsSansSemibold', sans-serif; // Deprecated
+$GillSans-Light: 'GillSansLight', sans-serif; // Deprecated
+$GillSans-Medium: 'GillSansMedium', sans-serif; // Deprecated
+
+
+htm{
+  font-size: 62.5%;
+}
+
+html, body{
+  font-family: $GillSans-Regular;
+}
+
+h1,h2,h3,h4{
+  font-family: $GillSans-SemiBold;
+}
+
+h1{
+  @include font-size(34);
+  letter-spacing: 0;
+  line-height: 40px;
+}
+
+h2{
+  @include font-size(30);
+  letter-spacing: 0;
+  line-height: 30px;
+}
+
+h3{
+  @include font-size(18);
+  letter-spacing: 0;
+  line-height: 30px;
+}
+
+h4{
+  @include font-size(14);
+  letter-spacing: 0;
+  line-height: 18px;
+}
+
+
+
+
+

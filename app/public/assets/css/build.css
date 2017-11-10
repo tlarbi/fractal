@@ -1,0 +1,154 @@
+@font-face {
+  font-family: 'GillSans';
+  src: url("../../assets/fonts/GillSans/GillSans.eot");
+  src: url("../../assets/fonts/GillSans/GillSans.ttf") format("truetype");
+  src: url("../../assets/fonts/GillSans/GillSans.woff2") format("woff2"), url("../../assets/fonts/GillSans/GillSans.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'GillSansSemibold';
+  src: url("../../assets/fonts/GillSansSemibold/GillSansSemibold.eot");
+  src: url("../../assets/fonts/GillSansSemibold/GillSansSemibold.ttf") format("truetype"), url("../../assets/fonts/GillSansSemibold/GillSansSemibold.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'GillSansBold';
+  src: url("../../assets/fonts/GillSansBold/GillSansBold.eot");
+  src: url("../../assets/fonts/GillSansBold/GillSansBold.ttf") format("truetype"), url("../../assets/fonts/GillSansBold/GillSansBold.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'GillSansLight';
+  src: url("../../assets/fonts/GillSansLight/GillSansLight.eot");
+  src: url("../../assets/fonts/GillSansLight/GillSansLight.ttf") format("truetype"), url("../../assets/fonts/GillSansLight/GillSansLight.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'GillSansMedium';
+  src: url("../../assets/fonts/GillSansMedium/GillSansMedium.eot");
+  src: url("../../assets/fonts/GillSansMedium/GillSansMedium.ttf") format("truetype"), url("../../assets/fonts/GillSansMedium/GillSansMedium.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+htm {
+  font-size: 62.5%; }
+
+html, body {
+  font-family: "GillSans", sans-serif; }
+
+h1, h2, h3, h4 {
+  font-family: "GillsSansSemibold", sans-serif; }
+
+h1 {
+  font-size: 34px;
+  letter-spacing: 0;
+  line-height: 40px; }
+
+h2 {
+  font-size: 30px;
+  letter-spacing: 0;
+  line-height: 30px; }
+
+h3 {
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: 30px; }
+
+h4 {
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: 18px; }
+
+.typo {
+  font-size: 22px;
+  color: #000;
+  padding: 20px; }
+
+.regular {
+  font-family: "GillSans", sans-serif; }
+
+.bold {
+  font-family: "GillSansBold", sans-serif; }
+
+.semi-bold {
+  font-family: "GillsSansSemibold", sans-serif; }
+
+.light {
+  font-family: "GillSansLight", sans-serif; }
+
+.medium {
+  font-family: "GillSansMedium", sans-serif; }
+
+.box {
+  font-family: "GillSansBold", sans-serif;
+  text-align: center;
+  padding: 50px;
+  width: 100px;
+  color: white; }
+
+.blue {
+  background-color: #00afec; }
+
+.gris1 {
+  background-color: #767676; }
+
+.gris2 {
+  background-color: #9E9E9E; }
+
+.gris3 {
+  background-color: #97A0A1; }
+
+.gris4 {
+  background-color: #EDEDED;
+  color: black; }
+
+.gris5 {
+  background-color: #F4F4F4;
+  color: black; }
+
+.gris6 {
+  background-color: #FAFAFA;
+  color: black; }
+
+.black {
+  background-color: black;
+  color: white; }
+
+.white {
+  background-color: white;
+  color: black; }
+
+.yellow {
+  background-color: #FFFE02;
+  color: black; }
+
+.red {
+  background-color: #FF1425;
+  color: white; }
+
+.citeo .btn-wrapper {
+  background-color: black;
+  padding: 16px;
+  color: white;
+  border: 0;
+  outline: 0;
+  text-transform: uppercase; }
+  .citeo .btn-wrapper__btn {
+    font-family: "GillSans", sans-serif;
+    padding: 16px 20px 16px 20px; }
+
+.adelphe .btn-wrapper {
+  background-color: #eaab32;
+  padding: 16px;
+  color: white;
+  border: 0;
+  outline: 0;
+  text-transform: uppercase;
+  border-radius: 21px; }
+  .adelphe .btn-wrapper__btn {
+    font-family: "GillSans", sans-serif;
+    padding: 16px 20px 16px 20px; }
