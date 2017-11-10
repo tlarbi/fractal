@@ -1,0 +1,50 @@
+    1  cd projects/œ
+    2  cd projects/
+    3  ls
+    4  git clone 
+    5  docker ps
+    6  docker ps -a
+    7  git clone https://github.com/tlarbi/fractal.git
+    8  cd fractal/
+    9  cd fractal-devbox/
+   10  docker-compose build && docker-compose up
+   11  sudo docker-compose build && docker-compose up
+   12  sudo usermod -aG docker dropteam
+   13  sudo docker-compose build && docker-compose up
+   14  sudo docker-compose up
+   15  docker ŝ
+   16  docker ps
+   17  docker ps - a
+   18  docker ps -a
+   19  sudo service docker
+   20  sudo service docker status
+   21  sudo docker-compose up
+   22  sudo docker-compose build && docker-compose up
+   23  vi /etc/default/docker 
+   24  sudo vi /etc/default/docker 
+   25  sudo service docker restart
+   26  netstat -ant  |grep 3000
+   27  export DOCKER_HOST=tcp://localhost:3000
+   28  sudo docker-compose build && docker-compose up
+   29  docker ps
+   30  docker ps =a
+   31  docker ps -a
+   32  docker rm aa5f8a338f11
+   33* docker p
+   34  docker rm a15e43e1ae8e d801c69aa1e3 fc36fe9e69fb e849a78883dc
+   35  sudo docker-compose build && docker-compose up
+   36  sudo vi /etc/default/docker 
+   37  sudo service docker restart
+   38  sudo docker-compose build && docker-compose up
+   39  netstat -ant  |grep 3000
+   40  sudo chmod 666 /var/run/docker.sock
+   41  sudo docker-compose build && docker-compose up
+   42  echo $DOCKER_HOST
+   43  sudo usermod -aG docker dropteam
+   44  sudo docker-compose build && docker-compose up
+   45  su
+   46  sudo passwd root
+   47  sudo su
+   48  sudo  docker-compose up
+   49  history 
+   50  history > history.txt
